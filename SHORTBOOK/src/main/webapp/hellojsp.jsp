@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
+<meta charset="UTF-8">
 <title>안녕하세요</title>
 </head>
 <body>
@@ -13,6 +13,7 @@
 현재 날짜와 시간은
 <%=LocalDateTime.now() %>
 입니다.
+<hr>
 만나서 반갑습니다.
 
 </body>
