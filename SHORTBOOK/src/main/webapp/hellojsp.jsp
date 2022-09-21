@@ -13,6 +13,7 @@
 현재 날짜와 시간은
 <%=LocalDateTime.now() %>
 입니다.
+만나서 반갑습니다.
 
 </body>
 </html>
