@@ -38,7 +38,7 @@ public class HelloWorld extends HttpServlet {
 		PrintWriter out = response.getWriter();
 			out.append("<!doctype html><html><head><title>Hello World Servlet</title></head><body>")
 		.append("<h2>Hello World !!</h2><hr>")
-		.append("현재 날짜와 시간은 : " +java.time.LocalDateTime.now())
+		.append("현재 날짜는 : " +java.time.LocalDate.now())
 		.append("</body></html>");
 	}
 
